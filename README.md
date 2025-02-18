@@ -16,9 +16,6 @@ Clean UI: Simple and intuitive interface
 
 Clone the repository:
 
-git clone https://github.com/yourusername/flutter_form_app.git
-cd flutter_form_app
-
 Install dependencies:
 
 flutter pub get
