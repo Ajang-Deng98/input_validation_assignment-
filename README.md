@@ -1,16 +1,86 @@
-# Input Validation
+_## 📱 Multi-Form Flutter App
 
-A new Flutter project.
+This is a simple Flutter application that allows users to input their personal details and view them on a confirmation screen. The app demonstrates form validation, navigation between screens, and the use of TextEditingController for input fields.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+Form Input: Name, Email, Phone Number, Address
 
-A few resources to get you started if this is your first Flutter project:
+Form Validation: Email and phone number validation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Navigation: Moves to a confirmation screen after form submission
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clean UI: Simple and intuitive interface
+
+## 🛠️ Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/flutter_form_app.git
+cd flutter_form_app
+
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+## 🧱 Project Structure
+
+.
+├── lib
+│   ├── main.dart               # App entry point
+│   ├── screens
+│       ├── home_screen.dart    # Form input screen
+│       └── confirmation_screen.dart  # Confirmation screen
+└── pubspec.yaml
+
+## 🧩 Code Overview
+
+## main.dart
+
+Initializes the app with MyApp.
+
+Sets HomeScreen as the default home widget.
+
+## home_screen.dart
+
+Displays a form with fields for name, email, phone, and address.
+
+Validates name, email, and phone number inputs.
+
+On successful validation, navigates to the ConfirmationScreen.
+
+## confirmation_screen.dart
+
+Displays the submitted user information.
+
+Provides a Go Back button to return to the HomeScreen.
+
+## ⚙️ Validation Rules
+
+Name: Required
+
+Email: Must be in valid email format
+
+Phone: Must be exactly 10 digits
+
+
+## 🤝 Contributing
+
+Fork the repo.
+
+Create a new branch: git checkout -b feature/awesome-feature
+
+Commit your changes: git commit -m 'Add some awesome feature'
+
+Push to the branch: git push origin feature/awesome-feature
+
+Submit a pull request 🚀
+
+📜 License
+
+This project is licensed under the MIT License.
+
